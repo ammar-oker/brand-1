@@ -462,6 +462,23 @@ ul, ol {
     transition: .2s color
 }
 
+.pricing.recommended {
+    border: 1px solid #00ad5f;
+}
+
+.pricing.recommended:before {
+    content: "موصى بها";
+    border: 1px solid #00ad5f;
+    border-radius: 15px;
+    padding: 0.3em;
+    background: #00ad5f;
+    color: #fff;
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+}
+
 .pricing .price-btn {
     padding-top: 20px;
     padding-bottom: 40px
