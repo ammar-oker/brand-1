@@ -86,6 +86,11 @@ ul, ol {
         opacity: 1;
         padding: 0;
     }
+
+    #navbar .navbar-nav::after {
+        display: none;
+    }
+
     #navbar .navbar-nav.open {
         display: flex;
         visibility: visible;
