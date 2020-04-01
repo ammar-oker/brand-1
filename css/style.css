@@ -16,8 +16,6 @@ ul, ol {
     color: #00ad5f;
 }
 
-
-
 #navbar{
     position: fixed;
     top: unset;
@@ -111,7 +109,7 @@ ul, ol {
 #navbar a {
     color: #999 ;
 }
-#navbar .navbar-nav a.active {
+#navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
     color: #00ad5f ;
 }
 
