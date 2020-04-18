@@ -101,7 +101,7 @@ if(isset($_GET['color']) && in_array($_GET['color'], $all_colors))
     <nav id="mobile-nav" class="py-2 mb-3 d-md-none">
         <div class="mx-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
-                 stroke="#00ad5f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="logo" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                  class="d-inline-block">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
@@ -616,7 +616,6 @@ if(isset($_GET['color']) && in_array($_GET['color'], $all_colors))
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js'></script>
-<script src="./js/url-params.js"></script>
 <script src="./js/script.js"></script>
 
 </body>
