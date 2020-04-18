@@ -1,0 +1,100 @@
+.text-success {
+    color: #6195ff;
+}
+
+.logo {
+    stroke: #6195ff;
+}
+
+#navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
+    color: #6195ff ;
+}
+
+#home-carousel .carousel-control-next, #home-carousel .carousel-control-prev {
+    color: #6195ff;
+}
+#home-carousel .carousel-control-next:focus, #home-carousel .carousel-control-prev:focus {
+    color: #6195ff;
+}
+#home-carousel .carousel-control-next:hover, #home-carousel .carousel-control-prev:hover {
+    color: #6195ff;
+}
+
+.title:after {
+    background-color: #6195ff;
+}
+
+.work .work-content span {
+    color: #6195ff;
+}
+
+.work .work-link a {
+    background-color: #6195ff;
+}
+
+.service i {
+    color: #6195ff;
+}
+
+.feature i {
+    color: #6195ff;
+    border: 1px solid #6195ff;
+}
+
+#about-carousel .carousel-control-next, #about-carousel .carousel-control-prev {
+    background: #6195ff;
+}
+
+.pricing .price {
+    border: 2px solid #6195ff;
+}
+
+.pricing.recommended {
+    border: 1px solid #6195ff;
+}
+
+.pricing.recommended:before {
+    border: 1px solid #6195ff;
+    background: #6195ff;
+}
+
+.pricing .price-btn button {
+    color: #6195ff;
+    border-color: #6195ff;
+}
+
+.pricing .price-btn button:hover {
+    background-color: #6195ff;
+    border-color: #6195ff;
+}
+
+.contact i {
+    color: #6195ff;
+}
+
+.contact a {
+    color: #6195ff;
+}
+
+.contact input[type=submit] {
+    color: #6195ff;
+    border-color: #6195ff;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #6195ff;
+    border-color: #6195ff;
+}
+
+footer .social-links li a {
+    color: #6195ff;
+    border: 1px solid #6195ff;
+}
+
+footer .social-links li a:hover {
+    background: #6195ff;
+}
+
+footer .copyrights a {
+    color: #6195ff;
+}

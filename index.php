@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿<?php
+$color = 'default';
+$all_colors = Array('blue', 'red');
+if(isset($_GET['color']) && in_array($_GET['color'], $all_colors))
+{
+    $color = $_GET['color'];
+}
+?>
+<!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
@@ -20,13 +28,15 @@
     <link rel="stylesheet" href="./css/burger-btn.css">
     <!--    My stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Color Theme -->
+    <link rel="stylesheet" href="./css/<?php echo $color;?>-skin.css">
 </head>
 <body>
 <header id="home">
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#home">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                 stroke="#00ad5f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            <svg  class="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                  class="d-block mx-auto">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
@@ -51,8 +61,8 @@
         </div>
 
         <a class="navbar-brand d-md-none" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                 stroke="#00ad5f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                  class="d-block mx-auto">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
@@ -599,55 +609,15 @@
         </div>
     </div>
     <p class="copyrights m-0 mt-5 py-3 py-md-0">COPYRIGHT © 2020. ALL RIGHTS RESERVED. DESIGNED BY <a
-            href="#">PlanetWWW</a></p>
+            href="#">Ammar Oker</a></p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="./js/script.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js'></script>
-<script>
-
-            var swiper = new Swiper(".swiper-container", {
-                effect: "coverflow",
-                grabCursor: false,
-                centeredSlides: true,
-                slidesPerView: "auto",
-                coverflowEffect: {
-                    rotate: 20,
-                    stretch: 0,
-                    depth: 200,
-                    modifier: 1,
-                    slideShadows: false
-                },
-                breakpoints: {
-                    576: {
-                        coverflowEffect: {
-                          rotate: 20,
-                          stretch: 0,
-                          depth: 650,
-                          modifier: 1,
-                          slideShadows: false
-                      },
-                  }
-                },
-                pagination: {
-                    el: ".swiper-pagination"
-                },
-            });
-    $('.swiper-slide').on('click', function () {
-    if ($(this).hasClass('swiper-slide-next')) {
-        swiper.slideTo(swiper.activeIndex + 1);
-    }
-    else if ($(this).hasClass('swiper-slide-prev')) {
-        swiper.slideTo(swiper.activeIndex - 1);
-    }
-    });
-    window.addEventListener('load', function () {
-        swiper.slideTo(1);
-    })
-</script>
+<script src="./js/url-params.js"></script>
+<script src="./js/script.js"></script>
 
 </body>
 </html>

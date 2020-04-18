@@ -1,0 +1,100 @@
+.text-success {
+    color: #e74c3c;
+}
+
+.logo {
+    stroke: #e74c3c;
+}
+
+#navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
+    color: #e74c3c ;
+}
+
+#home-carousel .carousel-control-next, #home-carousel .carousel-control-prev {
+    color: #e74c3c;
+}
+#home-carousel .carousel-control-next:focus, #home-carousel .carousel-control-prev:focus {
+    color: #e74c3c;
+}
+#home-carousel .carousel-control-next:hover, #home-carousel .carousel-control-prev:hover {
+    color: #e74c3c;
+}
+
+.title:after {
+    background-color: #e74c3c;
+}
+
+.work .work-content span {
+    color: #e74c3c;
+}
+
+.work .work-link a {
+    background-color: #e74c3c;
+}
+
+.service i {
+    color: #e74c3c;
+}
+
+.feature i {
+    color: #00ad5f;
+    border: 1px solid #e74c3c;
+}
+
+#about-carousel .carousel-control-next, #about-carousel .carousel-control-prev {
+    background: #e74c3c;
+}
+
+.pricing .price {
+    border: 2px solid #e74c3c;
+}
+
+.pricing.recommended {
+    border: 1px solid #e74c3c;
+}
+
+.pricing.recommended:before {
+    border: 1px solid #e74c3c;
+    background: #e74c3c;
+}
+
+.pricing .price-btn button {
+    color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.pricing .price-btn button:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.contact i {
+    color: #e74c3c;
+}
+
+.contact a {
+    color: #e74c3c;
+}
+
+.contact input[type=submit] {
+    color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+footer .social-links li a {
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}
+
+footer .social-links li a:hover {
+    background: #e74c3c;
+}
+
+footer .copyrights a {
+    color: #e74c3c;
+}

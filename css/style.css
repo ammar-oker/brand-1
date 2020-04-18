@@ -12,9 +12,9 @@ ul, ol {
     list-style: none
 }
 
-.text-success {
+/* .text-success {
     color: #00ad5f;
-}
+} */
 
 #navbar{
     position: fixed;
@@ -109,9 +109,9 @@ ul, ol {
 #navbar a {
     color: #999 ;
 }
-#navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
+/* #navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
     color: #00ad5f ;
-}
+} */
 
 #mobile-nav {
     box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,0.05);
@@ -156,14 +156,14 @@ ul, ol {
 
 #home-carousel .carousel-control-next, .carousel-control-prev {
     width: 10%;
-    color: #00ad5f;
+    /* color: #00ad5f; */
 }
-#home-carousel .carousel-control-next:focus, .carousel-control-prev:focus {
+/* #home-carousel .carousel-control-next:focus, .carousel-control-prev:focus {
     color: #00ad5f;
 }
 #home-carousel .carousel-control-next:hover, .carousel-control-prev:hover {
     color: #00ad5f;
-}
+} */
 
 .section-header {
     position: relative;
@@ -179,7 +179,7 @@ ul, ol {
     display: block;
     height: 4px;
     width: 40px;
-    background-color: #00ad5f;
+    /* background-color: #00ad5f; */
     margin-top: 20px
 }
 
@@ -272,7 +272,7 @@ ul, ol {
      -ms-transform: translateY(100%);
      transform: translateY(100%);
      opacity: 0;
-     color: #00ad5f;
+     /* color: #00ad5f; */
      margin-bottom: 5px;
      -webkit-transition: 0.2s all;
      transition: 0.2s all;
@@ -301,7 +301,7 @@ ul, ol {
      display: inline-block;
      width: 50px;
      height: 50px;
-     background-color: #00ad5f;
+     /* background-color: #00ad5f; */
      color: #FFF;
      line-height: 50px;
      text-align: center;
@@ -312,7 +312,6 @@ ul, ol {
      transition-delay: 0.2s;
      opacity: 1;
  }
-
 
  .service {
      position: relative;
@@ -331,7 +330,7 @@ ul, ol {
      left: 20px;
      text-align: center;
      font-size: 32px;
-     color: #00ad5f;
+     /* color: #00ad5f; */
      border-radius: 50%;
      -webkit-transition: all 0.7s;
      transition: all 0.7s;
@@ -357,15 +356,15 @@ ul, ol {
     float: right;
     padding: 5px;
     border-radius: 50%;
-    color: #00ad5f;
-    border: 1px solid #00ad5f;
+    /* color: #00ad5f; */
+    /* border: 1px solid #00ad5f; */
     margin-left: 10px
 }
 
 #about-carousel .carousel-control-next, #about-carousel .carousel-control-prev {
     opacity: 0;
     transition: all 0.5s;
-    background: #00ad5f;
+    /* background: #00ad5f; */
     height: fit-content;
     width: fit-content;
     padding: 1em;
@@ -375,7 +374,6 @@ ul, ol {
 #about-carousel:hover .carousel-control-next, #about-carousel:hover .carousel-control-prev {
     opacity: 1;
 }
-
 
 .swiper-container {
     width: 100%;
@@ -433,7 +431,7 @@ ul, ol {
     margin: auto;
     border-radius: 50%;
     color: #1c1d21;
-    border: 2px solid #00ad5f;
+    /* border: 2px solid #00ad5f; */
     font-family: montserrat,sans-serif;
     font-weight: bolder;
 }
@@ -462,16 +460,16 @@ ul, ol {
     transition: .2s color
 }
 
-.pricing.recommended {
+/* .pricing.recommended {
     border: 1px solid #00ad5f;
-}
+} */
 
 .pricing.recommended:before {
     content: "الأكثر مبيعاً";
-    border: 1px solid #00ad5f;
+    /* border: 1px solid #00ad5f; */
     border-radius: 15px;
     padding: 0.3em;
-    background: #00ad5f;
+    /* background: #00ad5f; */
     color: #fff;
      position: absolute;
     left: 50%;
@@ -485,19 +483,19 @@ ul, ol {
 }
 
 .pricing .price-btn button {
-    color: #00ad5f;
+    /* color: #00ad5f; */
     background-color: #fff;
-    border-color: #00ad5f;
+    /* border-color: #00ad5f; */
 }
 .pricing .price-btn button:hover {
     color: #fff;
-    background-color: #00ad5f;
-    border-color: #00ad5f;
+    /* background-color: #00ad5f; */
+    /* border-color: #00ad5f; */
 }
 
 .contact i {
     font-size: 2em;
-    color: #00ad5f;
+    /* color: #00ad5f; */
     margin: 1em 0;
 }
 
@@ -505,20 +503,20 @@ ul, ol {
     font-size: 1.2em;
 }
 
-.contact a {
+/* .contact a {
     color: #00ad5f;
-}
+} */
 
 .contact input[type=submit] {
-    color: #00ad5f;
+    /* color: #00ad5f; */
     background-color: #fff;
-    border-color: #00ad5f;
+    /* border-color: #00ad5f; */
 }
 
 .contact input[type=submit]:hover {
     color: #fff;
-    background-color: #00ad5f;
-    border-color: #00ad5f;
+    /* background-color: #00ad5f; */
+    /* border-color: #00ad5f; */
 }
 
 footer .social-links li {
@@ -528,17 +526,17 @@ footer .social-links li {
 
 footer .social-links li a {
     display: block;
-    color: #00ad5f;
+    /* color: #00ad5f; */
     font-size: 1.2em;
     padding: 0.35em;
-    border: 1px solid #00ad5f;
+    /* border: 1px solid #00ad5f; */
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
 footer .social-links li a:hover {
-    background: #00ad5f;
+    /* background: #00ad5f; */
     color: #fff;
 }
 
@@ -550,6 +548,6 @@ footer .copyrights {
     font-size: 0.9em;
 }
 
-footer .copyrights a {
+/* footer .copyrights a {
     color: #00ad5f;
-}
+} */

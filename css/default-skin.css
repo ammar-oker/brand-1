@@ -1,0 +1,100 @@
+.text-success {
+    color: #00ad5f;
+}
+
+.logo {
+    stroke: #00ad5f;
+}
+
+#navbar .navbar-nav a.active, #navbar .navbar-nav a:hover {
+    color: #00ad5f ;
+}
+
+#home-carousel .carousel-control-next, #home-carousel .carousel-control-prev {
+    color: #00ad5f;
+}
+#home-carousel .carousel-control-next:focus, #home-carousel .carousel-control-prev:focus {
+    color: #00ad5f;
+}
+#home-carousel .carousel-control-next:hover, #home-carousel .carousel-control-prev:hover {
+    color: #00ad5f;
+}
+
+.title:after {
+    background-color: #00ad5f;
+}
+
+.work .work-content span {
+    color: #00ad5f;
+}
+
+.work .work-link a {
+    background-color: #00ad5f;
+}
+
+.service i {
+    color: #00ad5f;
+}
+
+.feature i {
+    color: #00ad5f;
+    border: 1px solid #00ad5f;
+}
+
+#about-carousel .carousel-control-next, #about-carousel .carousel-control-prev {
+    background: #00ad5f;
+}
+
+.pricing .price {
+    border: 2px solid #00ad5f;
+}
+
+.pricing.recommended {
+    border: 1px solid #00ad5f;
+}
+
+.pricing.recommended:before {
+    border: 1px solid #00ad5f;
+    background: #00ad5f;
+}
+
+.pricing .price-btn button {
+    color: #00ad5f;
+    border-color: #00ad5f;
+}
+
+.pricing .price-btn button:hover {
+    background-color: #00ad5f;
+    border-color: #00ad5f;
+}
+
+.contact i {
+    color: #00ad5f;
+}
+
+.contact a {
+    color: #00ad5f;
+}
+
+.contact input[type=submit] {
+    color: #00ad5f;
+    border-color: #00ad5f;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #00ad5f;
+    border-color: #00ad5f;
+}
+
+footer .social-links li a {
+    color: #00ad5f;
+    border: 1px solid #00ad5f;
+}
+
+footer .social-links li a:hover {
+    background: #00ad5f;
+}
+
+footer .copyrights a {
+    color: #00ad5f;
+}
